@@ -291,13 +291,23 @@ Use Javadoc for classes and important methods:
 
 # Important Rules for Everyone
 Don't rename classes.
+
 Don't rename shared variables.
+
 Don't change method names without telling the group.
+
 FoodProduct and NonFoodProduct must extend Product.
+
 Keep Product variables private.
+
 Use getters/setters instead of directly accessing private variables.
+
 Use @Override for displayInfo() in the child classes.
+
 Inventory must use ArrayList<Product>.
+
 Add Javadoc/comments to your code.
+
 Before merging code, test that the project still runs.
+
 If you need to add a new variable or method, tell the group first so the naming stays consistent.
