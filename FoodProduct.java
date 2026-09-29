@@ -15,7 +15,7 @@ public class FoodProduct extends Product {
      * @param expirationDate Expiration date of the food product (e.g., YYYY-MM-DD)
      */
     public FoodProduct(int id, String name, int quantity, int lowStockLevel, String expirationDate) {
-        super(id, name, quantity, lowStockLevel); // Tinatawag ang constructor ng parent class (Product)
+        super(id, name, quantity, lowStockLevel); // Calling the constructor of parent class (Product)
         this.expirationDate = expirationDate;
     }
 
